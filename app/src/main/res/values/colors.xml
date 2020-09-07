@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3439d2</color>
+    <color name="colorPrimaryDark">#2b32c1</color>
+    <color name="colorAccent">#2ebaee</color>
+    <color name="lightGray">#C1C1C1</color>
+    <color name="todoDoneGreenColor">#22D88E</color>
+    <color name="popupBackgroundColor">#e7e7e7</color>
+</resources>

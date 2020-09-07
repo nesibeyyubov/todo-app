@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:paddingVertical="15dp"
+    android:gravity="center_vertical"
+    android:id="@+id/todoRow"
+    android:padding="15dp"
+    android:background="@drawable/one_side_border_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:clipToPadding="false"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/doneButtonBackground"
+        android:layout_width="wrap_content"
+        android:background="@drawable/circle_border"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/doneButton"
+            android:layout_width="40dp"
+            android:background="@android:color/transparent"
+            android:layout_height="40dp"/>
+
+        <ImageView
+            android:id="@+id/doneImage"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/done_icon_white" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/todoName"
+            android:textSize="18sp"
+            android:text="Boglioli suit fitting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/todoPlace"
+            android:textColor="@color/lightGray"
+            android:text="Boglioli suiioli suit fitt fitting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/todoTime"
+        android:layout_gravity="top"
+        android:text="9am"
+        android:textColor="@color/lightGray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
